@@ -1,0 +1,34 @@
+# VSCode Extensions
+
+
+- AWS CLI Configure
+- AWS Toolkit
+- C/C++
+- C#
+- Dart
+- Docker
+- Draw.io Integration
+- Edit csv
+- Flutter
+- Glasslt-vsc
+- Go
+- Go Nightly
+- JavaScript and TypeScript Nightly
+- Julia
+- Jupyter
+- Kubernetes
+- Live Server
+- markdownlint
+- Media Player
+- Neo Vim
+- Pylance
+- Python
+- Python Type Hint
+- Remote-Containers
+- Remote-SSH
+- Remote-SSH: Editing Configuration Files
+- Remote-WSL
+- Rust
+- Swift Language
+- TOML Language Support
+- YAML
