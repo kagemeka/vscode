@@ -1,5 +1,9 @@
-# vscode
+# My VSCode Configurations
 
 
-## settings
+# Settings
 settings are synced with my github account
+
+
+
+# [Extensions](./docs/extensions.md)
