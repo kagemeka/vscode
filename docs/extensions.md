@@ -18,6 +18,7 @@
 - Jupyter
 - Kubernetes
 - Live Server
+- Live Share
 - markdownlint
 - Media Player
 - Neo Vim
