@@ -33,3 +33,4 @@
 - Swift Language
 - TOML Language Support
 - YAML
+- CloudFormation Linter
