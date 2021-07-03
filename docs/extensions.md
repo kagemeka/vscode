@@ -35,3 +35,5 @@
 - YAML
 - CloudFormation
 - CloudFormation Linter
+- Github Codespaces
+- Github Actions
