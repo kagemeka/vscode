@@ -47,13 +47,13 @@ install `Dart` extension.
   1. prerequisites
     - install nodejs to be able to use npm command. 
   2. generate the installer `sourcekit-lsp-vscode-dev.vsix`.
-  '''sh
-  $ git clone https://github.com/apple/sourcekit-lsp.git \
-    && cd sourcekit-lsp/Editors/vscode/ \
-    && npm install \
-    && npm run dev-package \
-    && mv sourcekit-lsp-development.vsix /root/
-  '''
+'''sh
+$ git clone https://github.com/apple/sourcekit-lsp.git \
+  && cd sourcekit-lsp/Editors/vscode/ \
+  && npm install \
+  && npm run dev-package \
+  && mv sourcekit-lsp-development.vsix /root/
+'''
 2. install sourcekit-lsp extension
   1. open command palette(`Ctrl` + `Shift` + `P`)
   2. search `Extensions: Install from VSIX` to install the vscode extension from a vsix file.
