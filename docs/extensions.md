@@ -3,13 +3,17 @@
 
 - AWS CLI Configure
 - AWS Toolkit
-- C/C++
 - C#
+- C/C++
+- CloudFormation
+- CloudFormation Linter
 - Dart
 - Docker
 - Draw.io Integration
 - Edit csv
 - Flutter
+- Github Actions
+- Github Codespaces
 - Glasslt-vsc
 - Go
 - Go Nightly
@@ -19,7 +23,6 @@
 - Kubernetes
 - Live Server
 - Live Share
-- markdownlint
 - Media Player
 - Neo Vim
 - Pylance
@@ -30,10 +33,8 @@
 - Remote-SSH: Editing Configuration Files
 - Remote-WSL
 - Rust
+- rust-analyzer
 - Swift Language
 - TOML Language Support
 - YAML
-- CloudFormation
-- CloudFormation Linter
-- Github Codespaces
-- Github Actions
+- markdownlint

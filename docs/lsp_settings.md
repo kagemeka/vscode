@@ -3,16 +3,14 @@
 
 # Rust Configuration
 
-1. Install Extension `Rust`
-  - Don't install `rust-analyzer`
-
-2.  add the below line to the your settings.json
-
+1. Install Extension `Rust` and `rust-analyze`
+2. add the below line to the your settings.json
+ 
 ```json
 "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
 ```
 
-- on Docker
+- use in a Docker container
   1. open vscode settings and selsect User/Workspace tab
   2. search `Rust-client: Rustup Path` -> `$HOME/.cargo/bin/rustup`
   3. reload vscode
