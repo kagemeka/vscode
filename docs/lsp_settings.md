@@ -1,10 +1,26 @@
 # VSCode LSP Settings 
 
 
-# Rust Configuration
 
-1. Install Extension `Rust` and `rust-analyze`
-2. add the below line to the your settings.json
+# Python LSP
+install `Python` extension.
+
+
+
+# Go LSP
+install `Go` extension and its dependencies
+
+
+
+# Dart LSP
+install `Dart` extension.
+
+
+
+# Rust LSP
+
+1. install extension `Rust` and `rust-analyzer`
+2. set rustupPath in your settings.json
  
 ```json
 "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
@@ -17,16 +33,39 @@
 
 
 
-# Swift
- 
-1. install sourcekit-lsp extension 
-   1. open command palette(`Ctrl` + `Shift` + `P`)
-   2. search `Extensions: Install from VSIX`
-   3. select `/root/sourcekit-lsp/Editors/vscode/out/sourcekit-lsp-vscode-dev.vsix`
-   4. reload vscode
+# Swift LSP
+## build official extension 
 
-2. set language server 
-   1. open vscode settings and select User/Workspace tab
-     - search `Sourcekit-lsp: Server Path` -> `/usr/local/swift-toolchain/usr/bin/sourcekit-lsp`
-     - search`Sourcekit-lsp Trace: Server` -> `verbose` (Optional)
-   2. reload vscode 
+- see also official references
+  - https://github.com/apple/sourcekit-lsp
+  - https://github.com/apple/sourcekit-lsp/blob/main/Documentation/Development.md
+  - https://github.com/apple/sourcekit-lsp/tree/main/Editors
+  - https://github.com/apple/sourcekit-lsp/tree/main/Editors/vscode
+
+
+1. generate the extension installer
+  1. prerequisites
+    - install nodejs to be able to use npm command. 
+  2. generate the installer `sourcekit-lsp-vscode-dev.vsix`.
+  '''sh
+  $ git clone https://github.com/apple/sourcekit-lsp.git \
+    && cd sourcekit-lsp/Editors/vscode/ \
+    && npm install \
+    && npm run dev-package \
+    && mv sourcekit-lsp-development.vsix /root/
+  '''
+2. install sourcekit-lsp extension
+  1. open command palette(`Ctrl` + `Shift` + `P`)
+  2. search `Extensions: Install from VSIX` to install the vscode extension from a vsix file.
+  3. select `/root/sourcekit-lsp-vscode-dev.vsix`
+3. set language server paths
+  1. open vscode settings and select User/Workspace tab
+    - search `Sourcekit-lsp: Server Path` -> `${SOURCEKIT_TOOLCHAIN_PATH}/usr/bin/sourcekit-lsp`
+      - e.g., if you install swift as `/usr/local/swift`, replace `${SOURCEKIT_TOOLCHAIN_PATH}` with `/usr/local/swift`
+    - search `Sourcekit-lsp: Toolchain Path` -> `${SOURCEKIT_TOOLCHAIN_PATH}`
+    - search`Sourcekit-lsp Trace: Server` -> `verbose` (Optional)
+4. reload vscode 
+
+
+## install unofficial extension
+install Extension `SourceKit-LSP - Unofficial CI build`
