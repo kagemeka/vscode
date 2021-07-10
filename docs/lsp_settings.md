@@ -43,28 +43,31 @@ install `Dart` extension.
   - https://github.com/apple/sourcekit-lsp/tree/main/Editors/vscode
 
 
-1. generate the extension installer
+- generate the extension installer
   1. prerequisites
     - install nodejs to be able to use npm command. 
   2. generate the installer `sourcekit-lsp-vscode-dev.vsix`.
-  '''sh
-  $ git clone https://github.com/apple/sourcekit-lsp.git \
-    && cd sourcekit-lsp/Editors/vscode/ \
-    && npm install \
-    && npm run dev-package \
-    && mv sourcekit-lsp-development.vsix /root/
-  '''
-2. install sourcekit-lsp extension
+'''sh
+$ git clone https://github.com/apple/sourcekit-lsp.git \
+  && cd sourcekit-lsp/Editors/vscode/ \
+  && npm install \
+  && npm run dev-package \
+  && mv sourcekit-lsp-development.vsix /root/
+'''
+
+- install sourcekit-lsp extension
   1. open command palette(`Ctrl` + `Shift` + `P`)
   2. search `Extensions: Install from VSIX` to install the vscode extension from a vsix file.
   3. select `/root/sourcekit-lsp-vscode-dev.vsix`
-3. set language server paths
+  
+- set language server paths
   1. open vscode settings and select User/Workspace tab
     - search `Sourcekit-lsp: Server Path` -> `${SOURCEKIT_TOOLCHAIN_PATH}/usr/bin/sourcekit-lsp`
       - e.g., if you install swift as `/usr/local/swift`, replace `${SOURCEKIT_TOOLCHAIN_PATH}` with `/usr/local/swift`
     - search `Sourcekit-lsp: Toolchain Path` -> `${SOURCEKIT_TOOLCHAIN_PATH}`
     - search`Sourcekit-lsp Trace: Server` -> `verbose` (Optional)
-4. reload vscode 
+
+- reload vscode 
 
 
 ## install unofficial extension
