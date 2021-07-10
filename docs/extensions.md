@@ -34,6 +34,8 @@
 - Remote-WSL
 - Rust
 - rust-analyzer
+- SourceKit-LSP (see the document for the [LSP](./lsp_settings.md#Swift-LSP))
+- SourceKit-LSP - Unofficial CI build
 - Swift Language
 - TOML Language Support
 - YAML
