@@ -23,6 +23,10 @@
 - Kubernetes
 - Live Server
 - Live Share
+- Markdown All in One
+- Markdown Math
+- Markdown Preview Enhanced
+- markdownlint
 - Media Player
 - Neo Vim
 - Pylance
