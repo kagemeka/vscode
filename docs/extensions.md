@@ -44,3 +44,9 @@
 - TOML Language Support
 - YAML
 - markdownlint
+
+
+# Themes
+- Monokai(Default)
+- monopastel
+- Black on White
