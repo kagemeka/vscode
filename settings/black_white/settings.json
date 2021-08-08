@@ -1,11 +1,11 @@
 { 
 
-  "glassit.alpha": 240,
+  "glassit.alpha": 235,
   
   "workbench.startupEditor":
   "newUntitledFile",
   "workbench.colorCustomizations": {
-    "activityBar.foreground": "#fff",
+    "activityBar.foreground": "#000",
     "activityBarBadge.backgound": "#fff",
     "sideBar.background": "#000",
     "activityBar.activeBackground": "#000",
@@ -31,7 +31,7 @@
   "editor.renderWhitespace": "all",
   "workbench.statusBar.visible": false,
   "window.menuBarVisibility": "compact",
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle":"block",
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.lineHeight": 0,
   "editor.lineHeight": 0,
@@ -63,7 +63,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.selectionHighlight": false,
   "editor.renderLineHighlight": "none",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "monopastel",
   "editor.snippetSuggestions": "top",
   "editor.quickSuggestions": {
     "other": true,
@@ -247,4 +247,4 @@
   "window.zoomLevel": -1,
   
   
-  }
+}
