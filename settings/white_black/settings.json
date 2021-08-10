@@ -4,21 +4,34 @@
     "activityBarBadge.backgound": "#000",
     "tab.activeForeground": "#000",
     "tab.inactiveForeground": "#000",
+    "tab.hoverBorder": "#000",
+    "tab.hoverForeground": "#000",
     "sideBar.foreground": "#000",
     "sideBarTitle.foreground": "#000",
     "sideBarSectionHeader.foreground": "#000",
     "editorCursor.foreground": "#000",
+    "editorHoverWidget.foreground": "#000",
     "terminalCursor.foreground": "#000",
     "terminal.foreground": "#000",
     "titleBar.activeForeground": "#000",
+    "scrollbarSlider.background": "#000",
+    "list.inactiveSelectionForeground": "#000",
+    "list.inactiveSelectionIconForeground": "#000",
+    "list.focusOutline": "#000",
+    "list.activeSelectionIconForeground": "#000",
+    "list.inactiveFocusOutline": "#000",
+    "list.activeSelectionForeground": "#000",
+    "list.hoverForeground": "#000",
+    "statusBar.foreground": "#000",
 
 
-    "tab.inactiveBackground": "#eee",
     "tab.activeBackground": "#fff",
+    "tab.hoverBackground": "#fff",
     "activityBar.activeBackground": "#fff",
     "activityBar.background": "#fff",
     "editor.background": "#fff",
     "editorGroupHeader.tabsBackground": "#fff",
+    "editorHoverWidget.background": "#fff",
     "sideBar.background": "#fff",
     "sideBarSectionHeader.background": "#fff",
     "sideBarSectionHeader.border": "#fff",
@@ -27,7 +40,19 @@
     "titleBar.border": "#fff",
     "titleBar.activeBackground": "#fff",
     "titleBar.inactiveBackground": "#fff",
-    "titleBar.inactiveForeground": "#fff"
+    "titleBar.inactiveForeground": "#fff",
+    "selection.background": "#fff",
+    "statusBar.background": "#fff",
+    "statusBar.border": "#fff",
+    "list.hoverBackground": "#fff",
+    "list.activeSelectionBackground": "#fff",
+    "list.inactiveFocusBackground": "#fff",
+    "list.inactiveSelectionBackground": "#fff",
+
+
+    "tab.inactiveBackground": "#eee",
+    "statusBarItem.hoverBackground": "#eee"
   },
+
   "workbench.colorTheme": "Black on White"
 }
