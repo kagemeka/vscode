@@ -2,26 +2,37 @@
 
   "glassit.alpha": 240,
   
-  "workbench.startupEditor":
-  "newUntitledFile",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "activityBar.foreground": "#fff",
     "activityBarBadge.backgound": "#fff",
-    "sideBar.background": "#000",
-    "activityBar.activeBackground": "#000",
-    "activityBar.background": "#000",
-    "editor.background": "#000",
-    "tab.inactiveBackground": "#111",
-    "tab.activeBackground": "#000",
-    "editorGroupHeader.tabsBackground": "#000",
-    "sideBar.foreground": "#fff",
     "tab.activeForeground": "#fff",
     "tab.inactiveForeground": "#fff",
+    "sideBar.foreground": "#fff",
     "sideBarTitle.foreground": "#fff",
-    "terminalCursor.foreground": "#fff",
+    "sideBarSectionHeader.foreground": "#fff",
     "editorCursor.foreground": "#fff",
-    "terminal.foreground": "#fff"
+    "terminalCursor.foreground": "#fff",
+    "terminal.foreground": "#fff",
+  
+    "tab.inactiveBackground": "#000111",
+    "tab.activeBackground": "#000000",
+    "activityBar.activeBackground": "#000000",
+    "activityBar.background": "#000000",
+    "editor.background": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "sideBar.background": "#000000",
+    "sideBarSectionHeader.background": "#000000",
+    "sideBarSectionHeader.border": "#001640",
+    "sideBar.border": "#000000",
+    "sideBar.dropBackground": "#000000", 
+    "titleBar.border": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveBackground": "#000000",
+    "titleBar.inactiveForeground": "#000000"
   },
+  
   "workbench.activityBar.visible": false,
   "editor.glyphMargin": false,
   "window.titleBarStyle": "custom",
@@ -40,7 +51,7 @@
   "files.autoSaveDelay": 1,
   "editor.dragAndDrop": true,
   "editor.cursorBlinking": "blink",
-  "editor.fontSize": 13,
+  "editor.fontSize": 16,
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
   "editor.autoClosingQuotes": "never",
@@ -53,9 +64,9 @@
   "remote.extensionKind": {
     "ms-azuretools.vscode-docker": "workspace"
   },
-  "editor.rulers": [31],
+  "editor.rulers": [31, 63, 127],
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 31,
+  "editor.wordWrapColumn": 63,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.foldingHighlight": false,
@@ -81,10 +92,7 @@
   "settingsSync.ignoredSettings":[],
   
   "[python]": {
-  
-  
-    "editor.tabSize": 2,
-    "editor.wordWrapColumn": 31,
+    // "editor.wordWrapColumn": 31,
   },
   "jupyter.askForKernelRestart": false,
   "jupyter.alwaysTrustNotebooks": true,
@@ -93,29 +101,18 @@
   },
   
   "[jupyter]": {
-      
-    "editor.tabSize": 2
+    // "editor.wordWrapColumn": 31,
   },
-  
   "[javascript]": {
-    "editor.tabSize": 2
+    // "editor.wordWrapColumn":31,
   },
   "[cpp]": {
-    "editor.tabSize": 2,
   },
   "[go]": {
-    "editor.tabSize": 2,
   },
   "[json]": {
-  
-    "editor.tabSize": 2,
-    "editor.wordWrapColumn": 63,
   },
-  
-  "[markdown]": {
-    
-    "editor.tabSize": 2,
-    "editor.snippetSuggestions": "top",
+  "[markdown]": {  
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
@@ -123,16 +120,10 @@
     }
   },
   
-  
   "julia.enableTelemetry": true,
   "[dart]": {
-  
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "editor.wordWrapColumn":31,
-    "editor.rulers": [
-      31,
-    ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -140,13 +131,12 @@
     "editor.wordBasedSuggestions": false,
     "editor.snippetSuggestions": "top"
   },
-  
   "dart.checkForSdkUpdates": false,
   
-  
   "[rust]": {
-    "editor.tabSize": 2,
   },
+  "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+  
   "vs-kubernetes": {
     "vs-kubernetes.kubectl-path.linux": "/home/kage/.vs-kubernetes/tools/kubectl/kubectl",
     "vs-kubernetes.helm-path.linux": "/home/kage/.vs-kubernetes/tools/helm/linux-amd64/helm",
@@ -159,35 +149,25 @@
   "terminal.integrated.cursorBlinking": true,
   
   "[dockerfile]": {
-    "editor.wordWrapColumn": 63,
-    "editor.rulers": [31, 63],
-  
     "editor.quickSuggestions": {
         "strings": true
     },
-    "editor.tabSize": 2
   },
   
   
-  "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
   "material-icon-theme.folders.color": "#90a4ae",
   "sourcekit-lsp.serverPath": "/usr/local/swift/usr/bin/sourcekit-lsp",
   "workbench.iconTheme": "material-icon-theme",
   "gopls": {
-  
   },
   "[yaml]": {
-  
     "editor.insertSpaces": true,
-    "editor.tabSize": 2,
     "editor.autoIndent": false,
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
       "strings": true
     },
-    "editor.wordWrapColumn": 63,
-    "editor.rulers": [31, 63],
   },
   "go.toolsManagement.autoUpdate": true,
   "jupyter.interactiveWindowMode": "perFile",
@@ -244,7 +224,6 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "window.zoomLevel": -1,
-  
-  
-  }
+  "window.zoomLevel": -2,
+  "git.ignoreMissingGitWarning": true
+}
