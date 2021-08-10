@@ -14,7 +14,9 @@
     "editorCursor.foreground": "#fff",
     "terminalCursor.foreground": "#fff",
     "terminal.foreground": "#fff",
-  
+    "titleBar.activeForeground": "#fff",
+
+
     "tab.inactiveBackground": "#000111",
     "tab.activeBackground": "#000000",
     "activityBar.activeBackground": "#000000",
@@ -28,7 +30,6 @@
     "sideBar.dropBackground": "#000000", 
     "titleBar.border": "#000000",
     "titleBar.activeBackground": "#000000",
-    "titleBar.activeForeground": "#000000",
     "titleBar.inactiveBackground": "#000000",
     "titleBar.inactiveForeground": "#000000"
   },
