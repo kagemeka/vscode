@@ -44,6 +44,7 @@
 - TOML Language Support
 - YAML
 - markdownlint
+- NGINX Configuration Language Support
 
 
 # Themes
