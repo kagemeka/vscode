@@ -27,35 +27,37 @@
     "list.activeSelectionForeground": "#fff",
     "list.hoverForeground": "#fff",
     "statusBar.foreground": "#fff",
-
-
-    "tab.activeBackground": "#000000",
-    "tab.hoverBackground": "#000000",
-    "activityBar.activeBackground": "#000000",
-    "activityBar.background": "#000000",
-    "editor.background": "#000000",
-    "editorGroupHeader.tabsBackground": "#000000",
-    "editorHoverWidget.background": "#000000",
-    "sideBar.background": "#000000",
-    "sideBarSectionHeader.background": "#000000",
-    "sideBarSectionHeader.border": "#000000",
-    "sideBar.border": "#000000",
-    "sideBar.dropBackground": "#000000", 
-    "titleBar.border": "#000000",
-    "titleBar.activeBackground": "#000000",
-    "titleBar.inactiveBackground": "#000000",
-    "titleBar.inactiveForeground": "#000000",
-    "selection.background": "#000000",
-    "statusBar.background": "#000000",
-    "statusBar.border": "#000000",
-    "list.hoverBackground": "#000000",
-    "list.activeSelectionBackground": "#000000",
-    "list.inactiveFocusBackground": "#000000",
-    "list.inactiveSelectionBackground": "#000000",
-
-
-    "tab.inactiveBackground": "#111",
-    "statusBarItem.hoverBackground": "#111",
+  
+  
+    "tab.activeBackground": "#001640",
+    "tab.hoverBackground": "#001640",
+    "activityBar.activeBackground": "#001640",
+    "activityBar.background": "#001640",
+    "editor.background": "#001640",
+    "editorGroupHeader.tabsBackground": "#001640",
+    "editorHoverWidget.background": "#001640",
+    "sideBar.background": "#001640",
+    "sideBarSectionHeader.background": "#001640",
+    "sideBarSectionHeader.border": "#001640",
+    "sideBar.border": "#001640",
+    "sideBar.dropBackground": "#001640", 
+    "titleBar.border": "#001640",
+    "titleBar.activeBackground": "#001640",
+    "titleBar.inactiveBackground": "#001640",
+    "titleBar.inactiveForeground": "#001640",
+    "selection.background": "#001640",
+    "statusBar.background": "#001640",
+    "statusBar.border": "#001640",
+    "list.inactiveFocusBackground": "#001640",
+    "list.inactiveSelectionBackground": "#001640",
+  
+  
+    "list.hoverBackground": "#0000ff64",
+    "list.activeSelectionBackground": "#0000ff64",
+  
+    
+    "tab.inactiveBackground": "#000032",
+    "statusBarItem.hoverBackground": "#000032"
   },
   
   "workbench.activityBar.visible": false,
@@ -99,7 +101,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.selectionHighlight": false,
   "editor.renderLineHighlight": "none",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "monopastel",
   "editor.snippetSuggestions": "top",
   "editor.quickSuggestions": {
     "other": true,
@@ -166,7 +168,10 @@
     "vs-kubernetes.kubectl-path.linux": "/home/kage/.vs-kubernetes/tools/kubectl/kubectl",
     "vs-kubernetes.helm-path.linux": "/home/kage/.vs-kubernetes/tools/helm/linux-amd64/helm",
     "vs-kubernetes.minikube-path.linux": "/home/kage/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
-    "vs-kubernetes.draft-path.linux": "/home/kage/.vs-kubernetes/tools/draft/linux-amd64/draft"
+    "vs-kubernetes.draft-path.linux": "/home/kage/.vs-kubernetes/tools/draft/linux-amd64/draft",
+    "vscode-kubernetes.helm-path.linux": "/home/l/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.kubectl-path.linux": "/home/l/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.linux": "/home/l/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
   },
   "terminal.integrated.commandsToSkipShell": [
     "language-julia.interrupt"
@@ -250,5 +255,6 @@
     "jupyter-notebook": "left"
   },
   "window.zoomLevel": -2,
-  "git.ignoreMissingGitWarning": true
-}
+  "git.ignoreMissingGitWarning": true,
+  "yaml.schemas": {},
+  }
