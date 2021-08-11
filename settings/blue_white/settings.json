@@ -44,10 +44,12 @@
     "selection.background": "#001640",
     "statusBar.background": "#001640",
     "statusBar.border": "#001640",
-    "list.hoverBackground": "#001640",
-    "list.activeSelectionBackground": "#001640",
     "list.inactiveFocusBackground": "#001640",
     "list.inactiveSelectionBackground": "#001640",
+
+
+    "list.hoverBackground": "#0000ff64",
+    "list.activeSelectionBackground": "#0000ff64",
 
 
     "tab.inactiveBackground": "#000032",

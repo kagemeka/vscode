@@ -45,12 +45,14 @@
     "selection.background": "#000000",
     "statusBar.background": "#000000",
     "statusBar.border": "#000000",
-    "list.hoverBackground": "#000000",
-    "list.activeSelectionBackground": "#000000",
     "list.inactiveFocusBackground": "#000000",
     "list.inactiveSelectionBackground": "#000000",
 
 
+    "list.hoverBackground": "#111",
+    "list.activeSelectionBackground": "#111",
+
+    
     "tab.inactiveBackground": "#111",
     "statusBarItem.hoverBackground": "#111"
   }
