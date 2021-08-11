@@ -27,6 +27,7 @@
     "list.activeSelectionForeground": "#fff",
     "list.hoverForeground": "#fff",
     "statusBar.foreground": "#fff",
+    "editorRuler.foreground": "#fff",
   
   
     "tab.activeBackground": "#001640",
@@ -256,5 +257,5 @@
   },
   "window.zoomLevel": -2,
   "git.ignoreMissingGitWarning": true,
-  "yaml.schemas": {},
-  }
+  "yaml.schemas": {}
+}

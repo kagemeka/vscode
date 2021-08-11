@@ -23,6 +23,7 @@
     "list.activeSelectionForeground": "#fff",
     "list.hoverForeground": "#fff",
     "statusBar.foreground": "#fff",
+    "editorRuler.foreground": "#fff",
 
 
     "tab.activeBackground": "#001640",
