@@ -51,11 +51,8 @@
 
     "list.hoverBackground": "#eee",
     "list.activeSelectionBackground": "#eee",
-
-    
     "tab.inactiveBackground": "#eee",
     "statusBarItem.hoverBackground": "#eee"
   },
-
   "workbench.colorTheme": "Black on White"
 }
