@@ -1,5 +1,4 @@
 { 
-
   "workbench.colorCustomizations": {
     "activityBar.foreground": "#fff",
     "activityBarBadge.backgound": "#fff",
@@ -50,12 +49,9 @@
     "list.inactiveSelectionBackground": "#000000",
 
 
-    "list.hoverBackground": "#111",
-    "list.activeSelectionBackground": "#111",
-
-    
-    "tab.inactiveBackground": "#111",
-    "statusBarItem.hoverBackground": "#111"
+    "list.hoverBackground": "#323232",
+    "list.activeSelectionBackground": "#323232", 
+    "tab.inactiveBackground": "#323232",
+    "statusBarItem.hoverBackground": "#323232"
   }
- 
 }
