@@ -41,6 +41,8 @@
 - SourceKit-LSP (see the document for the [LSP](./lsp_settings.md#Swift-LSP))
 - SourceKit-LSP - Unofficial CI build
 - Swift Language
+- TensorFlow Snippets
+- TensorFlow 2.0 Snippets
 - TOML Language Support
 - YAML
 - markdownlint
