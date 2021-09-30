@@ -72,3 +72,10 @@ $ git clone https://github.com/apple/sourcekit-lsp.git \
 
 ## install unofficial extension
 install Extension `SourceKit-LSP - Unofficial CI build`
+
+
+# Haskell LSP
+- install 
+  - Haskell
+  - Haskell Syntax Highlighting
+  - haskell-linter
