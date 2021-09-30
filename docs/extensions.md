@@ -17,6 +17,9 @@
 - Glasslt-vsc
 - Go
 - Go Nightly
+- Haskell
+- Haskell Syntax Highlighting
+- haskell-linter
 - JavaScript and TypeScript Nightly
 - Julia
 - Jupyter
