@@ -7,6 +7,8 @@
 - C/C++
 - CloudFormation
 - CloudFormation Linter
+- Competitive Programming Helper
+- D Programming Language (code-d)
 - Dart
 - Docker
 - Draw.io Integration
@@ -32,6 +34,8 @@
 - markdownlint
 - Media Player
 - Neo Vim
+- OCaml and Reason IDE
+- OCaml Platform
 - Pylance
 - Python
 - Python Type Hint
@@ -41,6 +45,7 @@
 - Remote-WSL
 - Rust
 - rust-analyzer
+- Scala (Metals)
 - SourceKit-LSP (see the document for the [LSP](./lsp_settings.md#Swift-LSP))
 - SourceKit-LSP - Unofficial CI build
 - Swift Language
