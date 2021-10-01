@@ -79,3 +79,15 @@ install Extension `SourceKit-LSP - Unofficial CI build`
   - Haskell
   - Haskell Syntax Highlighting
   - haskell-linter
+
+
+# OCaml LSP 
+- run `opam install -y ocaml-lsp-server`
+- install `OCaml Platform` 
+- for detail, see [here](https://ocaml.org/learn/tutorials/up_and_running.html).
+
+
+
+# Scala LCP
+- install `Scala (Metals)`.
+- for detail, see [here](https://docs.scala-lang.org/getting-started/index.html)
